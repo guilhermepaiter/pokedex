@@ -1,10 +1,10 @@
 *{
-    font: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 .body {
-    background-color: #f6f8f0;
+    background-color: #f6f8fc;
 }
 
 .content{
@@ -22,8 +22,4 @@
         margin: 1rem auto;
         border-radius: 1rem;
     }
-}
-
-.content h1{
-    margin: 0;
 }

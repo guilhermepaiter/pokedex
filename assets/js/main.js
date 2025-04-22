@@ -1,4 +1,4 @@
-
+const pokemonList = document.getElementById('pokemonList')
 
 function convertPokemonToLi(pokemon) {
     return `
@@ -17,8 +17,6 @@ function convertPokemonToLi(pokemon) {
             </li>
         `
 }
-
-const pokemonList = document.getElementById('pokemonList')
 
 pokeApi.getPokemons().then((pokemons = []) => {
     pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
